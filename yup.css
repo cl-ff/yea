@@ -1,0 +1,40 @@
+#waw {
+    font-size: 50px;
+    font-family: cursive;
+    grid-column: 5/28;
+    grid-row: 2/13;
+    border: solid 3px black;
+    border-radius: 200px;
+}
+#boob {
+    grid-column: 1/32;
+    grid-row: 14/26;
+}
+#boobers {
+    width: 2000px;
+    height: 400px;
+}
+#bub {
+    grid-column: 16/18;
+    grid-row: 13/16;
+    border: solid 3px black;
+    border-radius: 1000px;
+    
+}
+.parent > div {
+    display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 9px;
+border-width: 3px;
+  } 
+.parent {
+        display: grid;
+        grid-template-columns: repeat(32, 1fr);
+        grid-template-rows: repeat(26, 1fr);
+        gap: 20px;
+        height: 100vh;
+    background-image: url(paper.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+}
